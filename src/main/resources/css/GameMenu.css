@@ -1,0 +1,22 @@
+.root {
+    -fx-background-image: url('../images/interface/gameMenuBackground.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#title {
+    -fx-font: bold 36px 'Beyond Mars';
+    -fx-text-fill: white;
+}
+
+#boutonMenu {
+    -fx-background-image: url('../images/interface/boutonMenu.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-font: bold 22px 'Beyond Mars';
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}

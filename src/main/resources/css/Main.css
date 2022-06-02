@@ -1,0 +1,277 @@
+.root {
+    -fx-background-image: url('../images/interface/background.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-padding: 0 0 0 40px;
+}
+
+#grid {
+    -fx-background-color: black;
+}
+
+#case {
+    -fx-background-image: url('../images/board/case.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#murHorizontal {
+    -fx-background-image: url('../images/board/murHorizontal.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#murVertical {
+    -fx-background-image: url('../images/board/murVertical.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#luneJaune {
+    -fx-background-image: url('../images/board/luneJaune.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#saturneRouge {
+    -fx-background-image: url('../images/board/saturneRouge.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+#triangleSolaireBleu {
+    -fx-background-image: url('../images/board/triangleSolaireBleu.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#hexagoneCardinalVert {
+    -fx-background-image: url('../images/board/hexagoneCardinalVert.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#triangleSolaireJaune {
+    -fx-background-image: url('../images/board/triangleSolaireJaune.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#hexagoneCardinalRouge {
+    -fx-background-image: url('../images/board/hexagoneCardinalRouge.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#luneBleu {
+    -fx-background-image: url('../images/board/luneBleu.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#saturneVert {
+    -fx-background-image: url('../images/board/saturneVert.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#hexagoneCardinalJaune {
+    -fx-background-image: url('../images/board/hexagoneCardinalJaune.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#luneRouge {
+    -fx-background-image: url('../images/board/luneRouge.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#saturneBleu {
+    -fx-background-image: url('../images/board/saturneBleu.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#triangleSolaireVert {
+    -fx-background-image: url('../images/board/triangleSolaireVert.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#saturneJaune {
+    -fx-background-image: url('../images/board/saturneJaune.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#triangleSolaireRouge {
+    -fx-background-image: url('../images/board/triangleSolaireRouge.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#hexagoneCardinalBleu {
+    -fx-background-image: url('../images/board/hexagoneCardinalBleu.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#luneVert {
+    -fx-background-image: url('../images/board/luneVert.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#trouNoirMulticolor {
+    -fx-background-image: url('../images/board/trouNoirMulticolor.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#title {
+    -fx-font: bold 32px 'Beyond Mars';
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+}
+
+#jetonBackground {
+    -fx-background-image: url('../images/interface/jetonBackground.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+}
+
+#timer {
+    -fx-background-color: black;
+    -fx-background-radius: 10%;
+    -fx-font: bold 32px 'Beyond Mars';
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+}
+
+#label {
+    -fx-font: bold 22px 'Beyond Mars';
+    -fx-text-fill: white;
+}
+
+#robotJaune {
+    -fx-background-image: url('../images/pions/robotJaune.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #FAA42F;
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
+
+#robotJaune:hover {
+    -fx-opacity: 1.0;
+}
+
+#robotRouge {
+    -fx-background-image: url('../images/pions/robotRouge.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #DC2635;
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
+
+#robotRouge:hover {
+    -fx-opacity: 1.0;
+}
+
+#robotBleu {
+    -fx-background-image: url('../images/pions/robotBleu.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #1E509B;
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
+
+#robotBleu:hover {
+    -fx-opacity: 1.0;
+}
+
+#robotVert {
+    -fx-background-image: url('../images/pions/robotVert.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #5F813C;
+    -fx-cursor: hand;
+    -fx-opacity: 0.5;
+}
+
+#robotVert:hover {
+    -fx-opacity: 1.0;
+}
+
+#buttonPadding {
+    -fx-padding: 40px;
+}
+
+#resetButton {
+    -fx-background-image: url('../images/interface/boutonReset.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#leftButton {
+    -fx-background-image: url('../images/interface/boutonGauche.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#topButton {
+    -fx-background-image: url('../images/interface/boutonHaut.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#bottomButton {
+    -fx-background-image: url('../images/interface/boutonBas.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+#rightButton {
+    -fx-background-image: url('../images/interface/boutonDroite.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
