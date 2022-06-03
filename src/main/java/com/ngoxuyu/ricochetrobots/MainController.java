@@ -75,19 +75,19 @@ public class MainController implements Initializable {
     private final boolean[][] leftWall = new boolean[16][16];
     private final boolean[][] pionPosition = new boolean[16][16];
 
-    private final ArrayList<String> songs = new ArrayList<>();
     private int count = 0;
     private int minuteur = 90;
     private final Timer timer = new Timer();
 
     private final Timer timer2 = new Timer();
+    private final ArrayList<String> songs = new ArrayList<>();
     private int songNumber;
     private Media media;
     private MediaPlayer mediaPlayer;
     private double currentTime;
     private double duration;
 
-    public void start() {
+    private void start() {
         this.timer.schedule(new TimerTask() {
             public void run() {
                 Platform.runLater(() -> {
